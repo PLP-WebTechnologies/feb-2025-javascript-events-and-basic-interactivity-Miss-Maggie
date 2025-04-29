@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> JavaScript Concept Demo</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1><span>F</span>orm <span>V</span>alidation</h1>
+        </header>
+        <main>
+            <section>
+                <div class="form-container">
+                    <h2> Sign-up Form</h2>
+                    <p>Kindly fill the below fields to get you started.</p>
+                    <form id="sign-upForm">
+                        <label for="fullname"><b>Full Name:</b></label>
+                        <input type="text" id="fullname" required><br><br>
+                        <label for="contact"><b>Contact:</b></label>
+                        <input type="contact" id="contact" required><br><br>
+                        <label for="email"><b>Email:</b></label>
+                        <input type="email" id="email" required><br><br>
+                        <label for="password"><b>Password:</b></label>
+                        <input type="password" id="password" required minlength="8" maxlength="10"><br><br>
+                        <button type="submit">Submit</button>
+                    </form>
+                    <div id="feedback"></div>
+            <!-- </section>
+            <section>
+                <div class="taskSection">
+                    <h2>Tasks Description:</h2>
+                    <input type="text" id="taskInput" placeholder="Enter a task...">
+                    <button id="addTaskButton">Add Task</button>
+                    <ul id="taskList"></ul>
+                </div>
+                <div id="newTaskContainer"></div> -->
+            </section>
+        </main>
+        <footer>@2025 All Rights reserved. Javascript Events and Basic Interactivity </footer>
+    </body>
+</html>

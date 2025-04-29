@@ -1,0 +1,49 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 20px;
+    background-color: #89bba0;
+}
+
+h1{
+    text-align: center;
+}
+
+span{
+    color: rgb(223, 25, 84);
+}
+
+button {
+    background-color: #135303;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4a70ee;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    background: rgb(247, 237, 237);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+} 
+
+footer{
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background: #114135;
+   color: white;
+   text-align: center;
+   padding: 10px 0;
+}
