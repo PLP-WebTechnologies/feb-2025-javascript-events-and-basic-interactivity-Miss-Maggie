@@ -3,19 +3,19 @@ body {
     line-height: 1.6;
     margin: 20px;
     padding: 20px;
-    background-color: #89bba0;
+    background-color: #95b1b4;
 }
 
 h1{
     text-align: center;
 }
 
-span{
-    color: rgb(223, 25, 84);
+h2{
+    text-align: center;
 }
 
 button {
-    background-color: #135303;
+    background-color: #74162e;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -39,11 +39,59 @@ main {
 
 footer{
    position: absolute;
-   bottom: 0;
+   bottom: 100;
    left: 0;
    right: 0;
    background: #114135;
    color: white;
    text-align: center;
    padding: 10px 0;
+}
+
+.todo-container{
+    background-color: rgb(236, 205, 234);
+    border: 1px;
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 2px;
+}
+
+input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+ul {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    background: #f3f3f3;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.task-check {
+    margin-right: 10px;
+}
+
+.completed span {
+    text-decoration:green;
+    color: #34b334;
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
 }
